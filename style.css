@@ -1,0 +1,69 @@
+html,body{
+  height: 100%;
+}
+
+body{
+  background-color: aquamarine;
+  display: flex;
+}
+
+.game-container{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game-canvas{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+}
+.title{
+  text-transform:uppercase ;
+  color: orange;
+}
+.icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: none;
+}
+.mandarin,
+.grinch{
+  height: 24px;
+  width: 24px;
+}
+.game-info{
+  font-size: 18px;
+  text-align: center;
+  font-family: monospace;
+}
+.button-container{
+  justify-content: center;
+  display: flex;
+}
+.button{
+  background-color: rgb(96, 209, 44);
+  border-radius: 5px;
+  padding: 3px 20px 3px 20px;
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: 600;
+}
+#nightmareButton{
+  font-family: monospace;
+  background-color: red;
+  font-size: 20px;
+  font-weight: 600;
+}
+.difficulty_text{
+  font-weight: 700;
+  font-size: 28px;
+  font-family: monospace;
+}
+li{
+  font-weight: bold;
+  font-size: 20px;
+}
